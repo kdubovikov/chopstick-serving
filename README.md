@@ -3,6 +3,10 @@ This project proveides examples on different ways to train, export and serve
 TensorFlow models using Docker, Kubernetes, and TensorFlow Serving.
 This repository contains conpanion code for the tutorial LINK TBD.
 
+## Prerequisites
+* [Docker](https://www.docker.com)
+* [Kubernetes](https://kubernetes.io). Consider using [Minikube](https://github.com/kubernetes/minikube) for local experiments and [kubeadm](https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/) for simple cluster set up.
+
 ## Building and running the TensorFlow Serving image
 You may use provided Makefile to 
 * Build the image with `make tfserve_image`. Notice that no compilation isperformed through the process, the image uses precompiled TensorFlow Serving Ubuntu package.
