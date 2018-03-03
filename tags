@@ -1,0 +1,67 @@
+Ttype	serving/1/saved_model.pb	/^Ttype:$/;"	l
+Ttype	serving/1/saved_model.pb	/^Ttype:$/;"	l
+	serving/1/saved_model.pb	/^:/;"	l
+valueB	serving/1/saved_model.pb	/^valueB/;"	l
+valueB	serving/1/saved_model.pb	/^valueB:$/;"	l
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+API_TO_USE	Makefile	/^API_TO_USE=estimator_api$/;"	m
+Back	estimator_api/client.py	/^from colorama import Back, Fore, Style, init$/;"	i
+Back	tf_api/client.py	/^from colorama import Back, Fore, Style, init$/;"	i
+CLASSIFIER_SCRIPT	Makefile	/^CLASSIFIER_SCRIPT=.\/$(API_TO_USE)\/chopstick_classifier.py$/;"	m
+DATASET_PATH	Makefile	/^DATASET_PATH=.\/data\/chopstick.csv$/;"	m
+DOCKERFILE_PATH	Makefile	/^DOCKERFILE_PATH=.\/docker\/chopstick-dockerfile$/;"	m
+Fore	estimator_api/client.py	/^from colorama import Back, Fore, Style, init$/;"	i
+Fore	tf_api/client.py	/^from colorama import Back, Fore, Style, init$/;"	i
+IMAGE_NAME	Makefile	/^IMAGE_NAME=chopstick-classifier$/;"	m
+LogisticRegression	tf_api/chopstick_classifier.py	/^class LogisticRegression:$/;"	c
+SERVABLES_PATH	Makefile	/^SERVABLES_PATH=$(CURDIR)\/serving$/;"	m
+Style	estimator_api/client.py	/^from colorama import Back, Fore, Style, init$/;"	i
+Style	tf_api/client.py	/^from colorama import Back, Fore, Style, init$/;"	i
+__init__	tf_api/chopstick_classifier.py	/^    def __init__(self, num_features, learning_rate):$/;"	m	class:LogisticRegression
+absolute_import	estimator_api/client.py	/^from __future__ import absolute_import, division, print_function$/;"	i
+absolute_import	tf_api/client.py	/^from __future__ import absolute_import, division, print_function$/;"	i
+argparse	estimator_api/chopstick_classifier.py	/^import argparse$/;"	i
+argparse	estimator_api/client.py	/^import argparse$/;"	i
+argparse	tf_api/chopstick_classifier.py	/^import argparse$/;"	i
+argparse	tf_api/client.py	/^import argparse$/;"	i
+classification_pb2	estimator_api/client.py	/^from tensorflow_serving.apis import classification_pb2, prediction_service_pb2$/;"	i
+create_request	estimator_api/client.py	/^def create_request(data, request):$/;"	f
+create_request	tf_api/client.py	/^def create_request(data, request):$/;"	f
+division	estimator_api/client.py	/^from __future__ import absolute_import, division, print_function$/;"	i
+division	tf_api/client.py	/^from __future__ import absolute_import, division, print_function$/;"	i
+eval_estimator	estimator_api/chopstick_classifier.py	/^def eval_estimator(est, x_val, y_val):$/;"	f
+evaluate	tf_api/chopstick_classifier.py	/^    def evaluate(self, x, y):$/;"	m	class:LogisticRegression
+export_for_serving	tf_api/chopstick_classifier.py	/^    def export_for_serving(self, model_path):$/;"	m	class:LogisticRegression
+implementations	estimator_api/client.py	/^from grpc.beta import implementations$/;"	i
+implementations	tf_api/client.py	/^from grpc.beta import implementations$/;"	i
+init	estimator_api/client.py	/^from colorama import Back, Fore, Style, init$/;"	i
+init	tf_api/client.py	/^from colorama import Back, Fore, Style, init$/;"	i
+input_fn	estimator_api/chopstick_classifier.py	/^def input_fn(x_df, y_df):$/;"	f
+main	estimator_api/chopstick_classifier.py	/^def main():$/;"	f
+main	estimator_api/client.py	/^def main():$/;"	f
+main	tf_api/chopstick_classifier.py	/^def main():$/;"	f
+main	tf_api/client.py	/^def main():$/;"	f
+np	tf_api/chopstick_classifier.py	/^import numpy as np$/;"	i
+pd	estimator_api/chopstick_classifier.py	/^import pandas as pd$/;"	i
+pd	tf_api/chopstick_classifier.py	/^import pandas as pd$/;"	i
+predict_pb2	tf_api/client.py	/^from tensorflow_serving.apis import predict_pb2, prediction_service_pb2$/;"	i
+prediction_service_pb2	estimator_api/client.py	/^from tensorflow_serving.apis import classification_pb2, prediction_service_pb2$/;"	i
+prediction_service_pb2	tf_api/client.py	/^from tensorflow_serving.apis import predict_pb2, prediction_service_pb2$/;"	i
+preprocess_data	estimator_api/chopstick_classifier.py	/^def preprocess_data(filename, val_rows_count=20):$/;"	f
+preprocess_data	tf_api/chopstick_classifier.py	/^def preprocess_data(filename, val_rows_count=20):$/;"	f
+print_function	estimator_api/client.py	/^from __future__ import absolute_import, division, print_function$/;"	i
+print_function	tf_api/client.py	/^from __future__ import absolute_import, division, print_function$/;"	i
+response_callback	estimator_api/client.py	/^def response_callback(result_future):$/;"	f
+response_callback	tf_api/client.py	/^def response_callback(result_future):$/;"	f
+serving_input_receiver_fn	estimator_api/chopstick_classifier.py	/^def serving_input_receiver_fn():$/;"	f
+tf	estimator_api/chopstick_classifier.py	/^import tensorflow as tf$/;"	i
+tf	estimator_api/client.py	/^import tensorflow as tf$/;"	i
+tf	tf_api/chopstick_classifier.py	/^import tensorflow as tf$/;"	i
+tf	tf_api/client.py	/^import tensorflow as tf$/;"	i
+train	tf_api/chopstick_classifier.py	/^    def train(self, x, y):$/;"	m	class:LogisticRegression
+train_estimator	estimator_api/chopstick_classifier.py	/^def train_estimator(x_train, y_train):$/;"	f
