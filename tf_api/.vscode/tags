@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Back	../client.py	/^from colorama import Back, Fore, Style, init$/;"	kind:namespace	line:6
+Fore	../client.py	/^from colorama import Back, Fore, Style, init$/;"	kind:namespace	line:6
+LogisticRegression	../chopstick_classifier.py	/^class LogisticRegression:$/;"	kind:class	line:40
+Style	../client.py	/^from colorama import Back, Fore, Style, init$/;"	kind:namespace	line:6
+__init__	../chopstick_classifier.py	/^    def __init__(self, num_features, learning_rate):$/;"	kind:member	line:43
+absolute_import	../client.py	/^from __future__ import absolute_import, division, print_function$/;"	kind:namespace	line:1
+argparse	../chopstick_classifier.py	/^import argparse$/;"	kind:namespace	line:2
+argparse	../client.py	/^import argparse$/;"	kind:namespace	line:3
+chopstick_classifier.py	../chopstick_classifier.py	1;"	kind:file	line:1
+classification_pb2	../client.py	/^from tensorflow_serving.apis import classification_pb2, prediction_service_pb2$/;"	kind:namespace	line:9
+client.py	../client.py	1;"	kind:file	line:1
+create_request	../client.py	/^def create_request(data, request):$/;"	kind:function	line:14
+division	../client.py	/^from __future__ import absolute_import, division, print_function$/;"	kind:namespace	line:1
+evaluate	../chopstick_classifier.py	/^    def evaluate(self, x, y):$/;"	kind:member	line:70
+export_for_serving	../chopstick_classifier.py	/^    def export_for_serving(self, model_path):$/;"	kind:member	line:87
+implementations	../client.py	/^from grpc.beta import implementations$/;"	kind:namespace	line:7
+init	../client.py	/^from colorama import Back, Fore, Style, init$/;"	kind:namespace	line:6
+main	../chopstick_classifier.py	/^def main():$/;"	kind:function	line:125
+main	../client.py	/^def main():$/;"	kind:function	line:24
+np	../chopstick_classifier.py	/^import numpy as np$/;"	kind:namespace	line:4
+pd	../chopstick_classifier.py	/^import pandas as pd$/;"	kind:namespace	line:5
+prediction_service_pb2	../client.py	/^from tensorflow_serving.apis import classification_pb2, prediction_service_pb2$/;"	kind:namespace	line:9
+preprocess_data	../chopstick_classifier.py	/^def preprocess_data(filename, val_rows_count=20):$/;"	kind:function	line:9
+print_function	../client.py	/^from __future__ import absolute_import, division, print_function$/;"	kind:namespace	line:1
+response_callback	../client.py	/^def response_callback(result_future):$/;"	kind:function	line:78
+tf	../chopstick_classifier.py	/^import tensorflow as tf$/;"	kind:namespace	line:6
+tf	../client.py	/^import tensorflow as tf$/;"	kind:namespace	line:5
+train	../chopstick_classifier.py	/^    def train(self, x, y):$/;"	kind:member	line:65
