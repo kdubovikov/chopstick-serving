@@ -1,0 +1,11 @@
+sudo: required
+
+services:
+      - docker
+
+script:
+      - make tfserve_image
+
+after_success:
+      - docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
+      - make push_image
