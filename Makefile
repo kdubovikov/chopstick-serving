@@ -1,7 +1,7 @@
 #############
 # Variables #
 #############
-DOCKERFILE_PATH=./docker/chopstick-dockerfile
+DOCKERFILE_PATH=./Dockerfile
 DATASET_PATH=./data/chopstick.csv
 IMAGE_NAME=chopstick-classifier
 
@@ -29,4 +29,4 @@ train_classifier: $(DATASET_PATH) $(CLASSIFIER_SCRIPT)
 	python $(CLASSIFIER_SCRIPT) $(DATASET_PATH) --val-num=20
 
 run_server: $(SERVABLES_PATH) 
-	docker run -p8500:8500 -d --rm -v $(SERVABLES_PATH):/models tfserve_bin
+	docker run -p8500:8500 -d --rm -v $(SERVABLES_PATH):/models $(IMAGE_NAME)
