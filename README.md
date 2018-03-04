@@ -6,8 +6,8 @@ This repository contains conpanion code for the tutorial LINK TBD.
 ## Prerequisites
 * [Docker](https://www.docker.com)
 * [Kubernetes](https://kubernetes.io). Consider using [Minikube](https://github.com/kubernetes/minikube) for local experiments and [kubeadm](https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/) for simple cluster set up.
-* For model training and export: Python 3, `pip install tensorflow`
-* For running the client: Python 2, `pip install grpcio tensorflow tensorflow-serving-api`
+* For model training and export: Python 3, `pip install tensorflow colorama`
+* For running the client: Python 2, `pip install grpcio tensorflow tensorflow-serving-api colorama`
 
 ## Building and running the TensorFlow Serving image
 You may use provided Makefile to 
