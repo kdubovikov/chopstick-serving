@@ -1,5 +1,3 @@
-![](https://travis-ci.org/kdubovikov/chopstick-serving.svg?branch=master)
-
 # Awesome Chopstick Classifier. TensorFlow Serving examples for Kubernetes
 This project proveides examples on different ways to train, export and serve 
 TensorFlow models using Docker, Kubernetes, and TensorFlow Serving.
