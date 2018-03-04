@@ -8,6 +8,8 @@ This repository contains conpanion code for the tutorial LINK TBD.
 ## Prerequisites
 * [Docker](https://www.docker.com)
 * [Kubernetes](https://kubernetes.io). Consider using [Minikube](https://github.com/kubernetes/minikube) for local experiments and [kubeadm](https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/) for simple cluster set up.
+* For model training and export: Python 3, `pip install tensorflow`
+* For running the client: Python 2, `pip install grpcio tensorflow tensorflow-serving-api`
 
 ## Building and running the TensorFlow Serving image
 You may use provided Makefile to 
@@ -28,10 +30,10 @@ make API_TO_USE=estimator_api clean train_classifier
 ```
 
 ## Calling example client
-You may call the example client using this command:
+You must use python 2 on the client side as the `tensorflow-serving-api` [package](https://pypi.python.org/pypi/tensorflow-serving-api/) is only provided for Python 2 at the current moment. You may call the example client using this command:
 ```
-python client.py --model-name tf_model localhost:8500 0.5
+python2 client.py --model-name tf_model localhost:8500 0.5
 ```
 
-Execute `python client.py -h` if you want to kow more about the parameters.
+Execute `python2 client.py -h` if you want to kow more about the parameters.
 
