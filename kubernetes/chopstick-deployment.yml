@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: chopstick-classifier
+spec:
+  replicas: 3 # Here we tell Kubernetes to keep 3 replicas up. This will help us with reliability and scalability. The value can be changed online and Kubernetes will update the number of replicas to required quantity
+  selector:
+    matchLabels: # all pods labeled "app: chopstick-classifier will be in scope of this deployment"
+      app: chopstick-classifier
+  template: # this template will be allied to each replica in the set
+    metadata:
+      labels:
+        app: chopstick-classifier # label all replicas
+    spec:
+      containers:
+      - name: chopstick-classifier
+        image: chopstick-classifier # we refer to chopstick model server image which built previously
+        imagePullPolicy: Never # withoud this flag Kubernetes will try to pull our image from Docker Hub and will fail as it's not there
+        ports:
+        - containerPort: 8500 # expose TF Serving API port
